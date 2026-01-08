@@ -18,19 +18,10 @@
         }
         ul {
             list-style-type: disc;
-            margin-left: 0;        /* remove default margin */
-            padding-left: 25px;    /* text indent for readability */
+            padding-left: 50px; /* ← THIS moves the dotted text to the RIGHT */
         }
-        ul li::marker {
-            margin-left: 15px;      /* moves the bullet more to the right */
-        }
-        ul li {
-            margin-bottom: 10px;   /* spacing between items */
-        }
-        .clickable-link {
-            color: #0066cc;
-            text-decoration: underline;
-            font-weight: bold;
+        li {
+            margin-bottom: 10px;
         }
         hr {
             margin: 30px 0;
@@ -55,21 +46,20 @@ It connects to IoT-based soil sensors to provide real-time insights into soil co
 <h3>👩‍🌾 For Users</h3>
 <ul>
     <li><strong>Farm Connection:</strong> Quickly link your farm to the app using a QR code or gateway ID.</li>
-    <li><strong>Dashboard Overview:</strong> See a visual map of your farm’s soil health and get real-time sensor data (moisture, pH, temperature, salinity, and NPK).</li>
-    <li><strong>Smart Monitoring:</strong> Track individual farm zones, view detailed graphs, and compare data over time.</li>
-    <li><strong>Custom Alerts:</strong> Receive instant notifications when soil conditions go beyond recommended ranges.</li>
-    <li><strong>Reports:</strong> Generate and export daily or monthly summaries for easy record-keeping.</li>
-    <li><strong>Support:</strong> Access FAQs and email support for assistance.</li>
+    <li><strong>Dashboard Overview:</strong> See a visual map of your farm’s soil health and get real-time sensor data.</li>
+    <li><strong>Smart Monitoring:</strong> Track individual farm zones and compare data over time.</li>
+    <li><strong>Custom Alerts:</strong> Receive instant notifications when soil conditions go beyond limits.</li>
+    <li><strong>Reports:</strong> Generate daily or monthly summaries.</li>
+    <li><strong>Support:</strong> Access FAQs and email support.</li>
 </ul>
 
 <h3>🛠️ For Admins</h3>
 <ul>
-    <li><strong>Farm Management:</strong> View farm profiles and basic information at a glance.</li>
-    <li><strong>User Management:</strong> Oversee registered users and their access levels.</li>
-    <li><strong>Sensor Overview:</strong> Keep track of connected sensors and ensure proper coverage across farms.</li>
-    <li><strong>Support:</strong> Access help resources and dedicated admin support when needed.</li>
+    <li><strong>Farm Management:</strong> View farm profiles.</li>
+    <li><strong>User Management:</strong> Oversee users and access.</li>
+    <li><strong>Sensor Overview:</strong> Track connected sensors.</li>
+    <li><strong>Support:</strong> Access admin help.</li>
 </ul>
 
 </body>
 </html>
-
